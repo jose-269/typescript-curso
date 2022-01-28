@@ -16,7 +16,7 @@ const llamarBatman = (llamar) => {
 };
 llamarBatman('llamar');
 // Rest?
-const unirheroes = (personas) => {
+const unirheroes = (personas, ...restArgs) => {
     return personas.join(", ");
 };
 // Tipo funcion

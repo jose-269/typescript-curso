@@ -19,7 +19,7 @@ const llamarBatman = ( llamar?:string ):void => {
 llamarBatman('llamar');
 
 // Rest?
-const unirheroes = ( personas:string[] ):string => {
+const unirheroes = ( personas:string[], ...restArgs:string[] ):string => {
   return personas.join(", ");
 }
 
