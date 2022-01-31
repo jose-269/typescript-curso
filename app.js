@@ -22,5 +22,6 @@ const unirheroes = (personas, ...restArgs) => {
 // Tipo funcion
 const noHaceNada = (numero, texto, booleano, arreglo) => { };
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
-let noHaceNadaTampoco;
+let noHaceNadaTampoco = (n, t, b, a) => { };
 noHaceNadaTampoco = noHaceNada;
+//# sourceMappingURL=app.js.map

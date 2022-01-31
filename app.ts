@@ -10,13 +10,13 @@ const superHeroes = ["Flash", "Arrow", "Superman", "Linterna Verde"];
 contar(superHeroes);
 
 //Parametros por defecto
-const llamarBatman = ( llamar?:string ):void => {
+const llamarBatman = ( llamar:boolean ):void => {
   if( llamar ){
     console.log("Batiseñal activada");
   }
 }
 
-llamarBatman('llamar');
+llamarBatman(true);
 
 // Rest?
 const unirheroes = ( personas:string[], ...restArgs:string[] ):string => {
@@ -25,8 +25,8 @@ const unirheroes = ( personas:string[], ...restArgs:string[] ):string => {
 
 
 // Tipo funcion
-const noHaceNada = ( numero, texto, booleano, arreglo )=> {}
+const noHaceNada = ( numero:number, texto: string, booleano: boolean, arreglo:string[] ): void => {}
 
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
-let noHaceNadaTampoco;
+let noHaceNadaTampoco = (n:number, t:string, b:boolean, a:string[]):void => {};
 noHaceNadaTampoco = noHaceNada
