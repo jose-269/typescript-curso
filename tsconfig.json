@@ -99,7 +99,7 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "interfaces"
+    "app_interfaces.ts"
   ]
 }
 
